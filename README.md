@@ -9,29 +9,12 @@
 
 ### Step 2. Create and activate a virtual environment (recommended)
 ```bash
-python3 -m venv venv
-source venv/bin/activate      # Linux/Mac
-venv\Scripts\activate         # Windows
+conda activate judy
 ```
 
 ### Step 3. Install dependencies
 ```bash
 pip install -r requirements.txt
-```
-
-## Step 4. Dataset Setup
-Organize data into this structure:
-
-```
-data/
- ├── train/
- │    ├── class1/
- │    ├── class2/
- │    └── ...
- └── val/
-      ├── class1/
-      ├── class2/
-      └── ...
 ```
 
 ## Contact
